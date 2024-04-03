@@ -1,4 +1,8 @@
 
+![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Stack_Overflow_logo.svg/1280px-Stack_Overflow_logo.svg.png)
+
+
+
 
 # Software Developer Salary Prediction
 
@@ -19,14 +23,14 @@ The Stack Overflow Developer Survey dataset is used for this project. It provide
 - Company size
 - Salary
 
-## Usage
+## Run Locally
 
 To use the application, follow these steps:
 
 1. Clone the repository to your local machine:
 
 ```
-git clone <repository_url>
+git clone github.com/vishesh9131/Software-Developer-Salary-Prediction.git
 ```
 
 2. Navigate to the project directory:
@@ -67,11 +71,16 @@ streamlit run app.py
 
 - `app.py`: The main Streamlit application file.
 - `saved_steps.pkl`: A serialized file containing the trained machine learning model and preprocessing steps.
-- `requirements.txt`: A file listing all the required dependencies for the project.
+- `Salar_yprediction.ipynb`: This script, `app.py`, serves as the main file for deploying a Streamlit web application that predicts software developer salaries based on input features such as country, education level, and years of experience. It loads a pre-trained machine learning model and preprocessing steps from a serialized file (`saved_steps.pkl`). The script utilizes the Streamlit library to create an interactive user interface with input fields for selecting country, education level, and experience. Upon clicking the "Calculate Salary" button, the script processes the user inputs, encodes them using pre-trained OneHotEncoder objects (`le_country` and `le_education`), and makes salary predictions using the loaded machine learning model (`regressor_loaded`). Finally, it displays the estimated salary to the user. This file is essential for deploying the software developer salary prediction application via Streamlit, providing an intuitive interface for users to interact with.
 
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue or submit a pull request.
+
+
+
+
+
 
 ## License
 
@@ -79,3 +88,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 
 You can copy this Markdown content and save it as `README.md` in your project directory.
+## Authors
+
+- [@Vishesh9131](https://github.com/vishesh9131)
+
