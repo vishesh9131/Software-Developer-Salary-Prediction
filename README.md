@@ -23,6 +23,10 @@ The Stack Overflow Developer Survey dataset is used for this project. It provide
 - Company size
 - Salary
 
+## Deployed Version 
+
+[Link to the deployed web application](https://vishesh.streamlit.app)
+
 ## Run Locally
 
 To use the application, follow these steps:
